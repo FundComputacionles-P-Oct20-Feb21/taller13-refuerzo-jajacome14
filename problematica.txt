@@ -1,0 +1,17 @@
+1. Inicio
+2. k, i[0-n]
+3. j, i[0-n] <-- 0
+4. residuo, i[0-n]
+
+
+
+5. Escribir "Ingrese un numero"
+6. Leer k
+7. k1 <-- k
+8. Mientras (k1 > 0) entonces
+9.      residuo <-- k1 MOD 10
+10.      Escribir residuo + "*" + "10 elevado a la potencia"+ j
+11.      j <-- j+ 1
+12.      k1 <-- k1 / 10
+13. Fin Mientras
+14. Fin
